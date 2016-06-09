@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.niranjan4gmail.varma.allpanels.DrpdownMenuActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:id="@+id/bsettings"
+        android:layout_above="@+id/benhanceprof"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enhance Your Profile"
+        android:id="@+id/benhanceprof"
+        android:layout_above="@+id/bwritetous"
+        android:layout_alignStart="@+id/bsettings"
+        android:layout_alignEnd="@+id/bsettings" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write To US"
+        android:id="@+id/bwritetous"
+        android:layout_above="@+id/bprevresult"
+        android:layout_alignStart="@+id/benhanceprof"
+        android:layout_alignEnd="@+id/benhanceprof" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search previous results"
+        android:id="@+id/bprevresult"
+        android:layout_above="@+id/babtmyvoice"
+        android:layout_alignStart="@+id/bwritetous"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About My Voice"
+        android:id="@+id/babtmyvoice"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/bprevresult"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News Feed"
+        android:id="@+id/bnewsfeed"
+        android:layout_below="@+id/babtmyvoice"
+        android:layout_alignStart="@+id/babtmyvoice"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peep your Friend"
+        android:id="@+id/bpeepurfrnd"
+        android:layout_below="@+id/bnewsfeed"
+        android:layout_alignStart="@+id/bnewsfeed"
+        android:layout_alignEnd="@+id/bnewsfeed" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My question"
+        android:id="@+id/bmyquestion"
+        android:layout_below="@+id/bpeepurfrnd"
+        android:layout_alignStart="@+id/bpeepurfrnd"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
